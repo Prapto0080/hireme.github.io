@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'century gothic';
+    transition: 0.7s ease;
+    color: #fff;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(project1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    
+}
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+ul li.active a{
+    background: #fff;
+    color: #000;
+}
+
+.logo{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 18px;
+    
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.decs{
+    position: absolute;
+    top: 30%;
+    left:30%;
+}
